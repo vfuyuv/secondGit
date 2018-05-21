@@ -62,6 +62,7 @@ public class StreamingWindowWordCountJava2 {
 
     public static void ideaAdd(){
         System.out.println("idea add method");
+        System.out.println("idea add method");
     }
 
     public static void eclipseAdd() {
