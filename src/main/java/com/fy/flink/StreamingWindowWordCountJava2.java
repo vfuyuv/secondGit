@@ -60,13 +60,18 @@ public class StreamingWindowWordCountJava2 {
 
     }
 
+    public static void ideaAdd(){
+        System.out.println("idea add method");
+        System.out.println("idea add method");
+    }
+
     public static void eclipseAdd() {
     	System.out.println("eclipse add method");
     	System.out.println("eclipse add method");
     	System.out.println("eclipse add method");
     	System.out.println("eclipse add method");
     }
-    
+
     /**
      * 主要为了存储单词以及单词出现的次数
      */
