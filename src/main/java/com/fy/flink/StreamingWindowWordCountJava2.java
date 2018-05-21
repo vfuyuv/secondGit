@@ -20,7 +20,7 @@ public class StreamingWindowWordCountJava2 {
         }catch (Exception e) {
             System.out.println("没有指定port参数，是用默认值9000");
 //            port = 9001;
-            port = 9;
+            port = 99;
         }
         System.out.println(port);
         //获取运行环境
@@ -58,10 +58,6 @@ public class StreamingWindowWordCountJava2 {
         //注意，因为flink是懒加载的，所以必须调用execute方法，上面的代码才会执行
         env.execute("streaming word count");
 
-    }
-    
-    public static void test() {
-    	System.out.println("hello");
     }
 
     /**
