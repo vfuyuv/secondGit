@@ -8,7 +8,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
 
-public class StreamingWindowWordCountJava {
+public class StreamingWindowWordCountJava2 {
 
     public static void main(String[] args) throws Exception {
 
@@ -19,7 +19,7 @@ public class StreamingWindowWordCountJava {
             port = parameterTool.getInt("port");
         }catch (Exception e) {
             System.out.println("没有指定port参数，是用默认值9000");
-            port = 9000;
+            port = 9001;
         }
 
         //获取运行环境
