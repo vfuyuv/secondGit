@@ -21,7 +21,7 @@ public class StreamingWindowWordCountJava {
             System.out.println("没有指定port参数，是用默认值9000");
             port = 9000;
         }
-
+        System.out.println(port);
         //获取运行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
